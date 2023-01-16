@@ -1,0 +1,382 @@
+{
+	"cards": [
+		{
+			"id": 0,
+			"language_type": 2,
+			"answer_label": "dog",
+			"spell": "dog",
+			"front_image_file": "00_dog_front",
+			"back_image_file": "00_dog_back",
+			"sound_file": "00_dog"
+		},
+		{
+			"id": 1,
+			"language_type": 3,
+			"answer_label": "cat",
+			"spell": "cha",
+			"front_image_file": "01_cat_front",
+			"back_image_file": "01_cat_back",
+			"sound_file": "01_cat"
+		},
+		{
+			"id": 2,
+			"language_type": 4,
+			"answer_label": "dog",
+			"spell": "hund",
+			"front_image_file": "dog_ge",
+			"back_image_file": "",
+			"sound_file": "dog_ge"
+		},
+		{
+			"id": 3,
+			"language_type": 4,
+			"answer_label": "cat",
+			"spell": "katze",
+			"front_image_file": "cat_ge",
+			"back_image_file": "",
+			"sound_file": "cat_ge"
+		},
+		{
+			"id": 4,
+			"language_type": 4,
+			"answer_label": "book",
+			"spell": "buch",
+			"front_image_file": "book_ge",
+			"back_image_file": "",
+			"sound_file": "book_ge"
+		},
+		{
+			"id": 5,
+			"language_type": 4,
+			"answer_label": "pencil",
+			"spell": "bleistift",
+			"front_image_file": "pencil_ge",
+			"back_image_file": "",
+			"sound_file": "pencil_ge"
+		},
+		{
+			"id": 6,
+			"language_type": 4,
+			"answer_label": "tree",
+			"spell": "baum",
+			"front_image_file": "tree_ge",
+			"back_image_file": "",
+			"sound_file": "tree_ge"
+		},
+		{
+			"id": 7,
+			"language_type": 4,
+			"answer_label": "train",
+			"spell": "zug",
+			"front_image_file": "train_ge",
+			"back_image_file": "",
+			"sound_file": "train_ge"
+		},
+		{
+			"id": 8,
+			"language_type": 4,
+			"answer_label": "car",
+			"spell": "wagen",
+			"front_image_file": "car_ge",
+			"back_image_file": "",
+			"sound_file": "car_ge"
+		},
+		{
+			"id": 9,
+			"language_type": 4,
+			"answer_label": "ball",
+			"spell": "ball",
+			"front_image_file": "ball_ge",
+			"back_image_file": "",
+			"sound_file": "ball_ge"
+		},
+		{
+			"id": 10,
+			"language_type": 4,
+			"answer_label": "umbrella",
+			"spell": "regenschirm",
+			"front_image_file": "umbrella_ge",
+			"back_image_file": "",
+			"sound_file": "umbrella_ge"
+		},
+		{
+			"id": 11,
+			"language_type": 4,
+			"answer_label": "clothes",
+			"spell": "kleider",
+			"front_image_file": "clothes_ge",
+			"back_image_file": "",
+			"sound_file": "clothes_ge"
+		},
+		{
+			"id": 12,
+			"language_type": 4,
+			"answer_label": "child",
+			"spell": "kind",
+			"front_image_file": "child_ge",
+			"back_image_file": "",
+			"sound_file": "child_ge"
+		},
+		{
+			"id": 13,
+			"language_type": 4,
+			"answer_label": "computer",
+			"spell": "rechner",
+			"front_image_file": "computer_ge",
+			"back_image_file": "",
+			"sound_file": "computer_ge"
+		},
+		{
+			"id": 14,
+			"language_type": 4,
+			"answer_label": "hand",
+			"spell": "hand",
+			"front_image_file": "hand_ge",
+			"back_image_file": "",
+			"sound_file": "hand_ge"
+		},
+		{
+			"id": 15,
+			"language_type": 4,
+			"answer_label": "rain",
+			"spell": "regen",
+			"front_image_file": "rain_ge",
+			"back_image_file": "",
+			"sound_file": "rain_ge"
+		},
+		{
+			"id": 16,
+			"language_type": 4,
+			"answer_label": "sun",
+			"spell": "sonne",
+			"front_image_file": "sun_ge",
+			"back_image_file": "",
+			"sound_file": "sun_ge"
+		},
+		{
+			"id": 17,
+			"language_type": 4,
+			"answer_label": "moon",
+			"spell": "mond",
+			"front_image_file": "moon_ge",
+			"back_image_file": "",
+			"sound_file": "moon_ge"
+		},
+		{
+			"id": 18,
+			"language_type": 4,
+			"answer_label": "earth",
+			"spell": "erde",
+			"front_image_file": "earth_ge",
+			"back_image_file": "",
+			"sound_file": "earth_ge"
+		},
+		{
+			"id": 19,
+			"language_type": 4,
+			"answer_label": "flower",
+			"spell": "blume",
+			"front_image_file": "flower_ge",
+			"back_image_file": "",
+			"sound_file": "flower_ge"
+		},
+		{
+			"id": 20,
+			"language_type": 4,
+			"answer_label": "bread",
+			"spell": "brot",
+			"front_image_file": "bread_ge",
+			"back_image_file": "",
+			"sound_file": "bread_ge"
+		},
+		{
+			"id": 21,
+			"language_type": 4,
+			"answer_label": "apple",
+			"spell": "apfel",
+			"front_image_file": "apple_ge",
+			"back_image_file": "",
+			"sound_file": "apple_ge"
+		},
+		{
+			"id": 22,
+			"language_type": 6,
+			"answer_label": "dog",
+			"spell": "perro",
+			"front_image_file": "dog_sp",
+			"back_image_file": "",
+			"sound_file": "dog_sp"
+		},
+		{
+			"id": 23,
+			"language_type": 6,
+			"answer_label": "cat",
+			"spell": "gato",
+			"front_image_file": "cat_sp",
+			"back_image_file": "",
+			"sound_file": "cat_sp"
+		},
+		{
+			"id": 24,
+			"language_type": 6,
+			"answer_label": "book",
+			"spell": "libro",
+			"front_image_file": "book_sp",
+			"back_image_file": "",
+			"sound_file": "book_sp"
+		},
+		{
+			"id": 25,
+			"language_type": 6,
+			"answer_label": "pencil",
+			"spell": "lápiz",
+			"front_image_file": "pencil_sp",
+			"back_image_file": "",
+			"sound_file": "pencil_sp"
+		},
+		{
+			"id": 26,
+			"language_type": 6,
+			"answer_label": "tree",
+			"spell": "árbol",
+			"front_image_file": "tree_sp",
+			"back_image_file": "",
+			"sound_file": "tree_sp"
+		},
+		{
+			"id": 27,
+			"language_type": 6,
+			"answer_label": "train",
+			"spell": "tren",
+			"front_image_file": "train_sp",
+			"back_image_file": "",
+			"sound_file": "train_sp"
+		},
+		{
+			"id": 28,
+			"language_type": 6,
+			"answer_label": "car",
+			"spell": "coche",
+			"front_image_file": "car_sp",
+			"back_image_file": "",
+			"sound_file": "car_sp"
+		},
+		{
+			"id": 29,
+			"language_type": 6,
+			"answer_label": "ball",
+			"spell": "pelota",
+			"front_image_file": "ball_sp",
+			"back_image_file": "",
+			"sound_file": "ball_sp"
+		},
+		{
+			"id": 30,
+			"language_type": 6,
+			"answer_label": "umbrella",
+			"spell": "paraguas",
+			"front_image_file": "umbrella_sp",
+			"back_image_file": "",
+			"sound_file": "umbrella_sp"
+		},
+		{
+			"id": 31,
+			"language_type": 6,
+			"answer_label": "clothes",
+			"spell": "prenda",
+			"front_image_file": "clothes_sp",
+			"back_image_file": "",
+			"sound_file": "clothes_sp"
+		},
+		{
+			"id": 32,
+			"language_type": 6,
+			"answer_label": "child",
+			"spell": "niño",
+			"front_image_file": "child_sp",
+			"back_image_file": "",
+			"sound_file": "child_sp"
+		},
+		{
+			"id": 33,
+			"language_type": 6,
+			"answer_label": "computer",
+			"spell": "ordenador",
+			"front_image_file": "computer_sp",
+			"back_image_file": "",
+			"sound_file": "computer_sp"
+		},
+		{
+			"id": 34,
+			"language_type": 6,
+			"answer_label": "hand",
+			"spell": "mano",
+			"front_image_file": "hand_sp",
+			"back_image_file": "",
+			"sound_file": "hand_sp"
+		},
+		{
+			"id": 35,
+			"language_type": 6,
+			"answer_label": "rain",
+			"spell": "lluvia",
+			"front_image_file": "rain_sp",
+			"back_image_file": "",
+			"sound_file": "rain_sp"
+		},
+		{
+			"id": 36,
+			"language_type": 6,
+			"answer_label": "sun",
+			"spell": "sol",
+			"front_image_file": "sun_sp",
+			"back_image_file": "",
+			"sound_file": "sun_sp"
+		},
+		{
+			"id": 37,
+			"language_type": 6,
+			"answer_label": "moon",
+			"spell": "mes",
+			"front_image_file": "moon_sp",
+			"back_image_file": "",
+			"sound_file": "moon_sp"
+		},
+		{
+			"id": 38,
+			"language_type": 6,
+			"answer_label": "earth",
+			"spell": "Tierra",
+			"front_image_file": "earth_sp",
+			"back_image_file": "",
+			"sound_file": "earth_sp"
+		},
+		{
+			"id": 39,
+			"language_type": 6,
+			"answer_label": "flower",
+			"spell": "flor",
+			"front_image_file": "flower_sp",
+			"back_image_file": "",
+			"sound_file": "flower_sp"
+		},
+		{
+			"id": 40,
+			"language_type": 6,
+			"answer_label": "bread",
+			"spell": "pan",
+			"front_image_file": "bread_sp",
+			"back_image_file": "",
+			"sound_file": "bread_sp"
+		},
+		{
+			"id": 41,
+			"language_type": 6,
+			"answer_label": "apple",
+			"spell": "manzana",
+			"front_image_file": "apple_sp",
+			"back_image_file": "",
+			"sound_file": "apple_sp"
+		}
+	]
+}
