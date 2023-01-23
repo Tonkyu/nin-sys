@@ -137,7 +137,7 @@ public class Engine : MonoBehaviour
         for (int i = 0; i < Mathf.Min(id_lang_list.Length, rfid_data.Length); i++)
         {
             int j = 0;
-            while (j < id_lang_list.Length && (done[j] || !(id_lang_list[j].Item2 == 1 ^ rfid_data[i].label == "japanese" || rfid_data[i].label == "spanish")));
+            while (j < id_lang_list.Length && (done[j] || !(id_lang_list[j].Item2 == 4 ^ rfid_data[i].label == "foreign") || id_lang_list[j].Item2 != 1));
             {
                 j++;
             }
