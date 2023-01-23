@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,9 +14,11 @@ public class Engine : MonoBehaviour
     public int game_state;
     private string card_master_json_path;
     private string rfid_master_json_path;
+    private string answer_master_json_path;
     public Dictionary<string, CardInfo> cardInfos;
-    public string[] id_list;
+    public Tuple<string, int>[] id_lang_list;
     public RFID[] rfid_data;
+    public int[] answer_data;
     public Dictionary<string, string> dict; // <RFID, CardInfo.id>
     public GameObject card1;
     public GameObject card2;
@@ -31,11 +32,18 @@ public class Engine : MonoBehaviour
         game_state = 0;
         card_master_json_path = "Assets/Resources/Master/CardMaster.json";
         rfid_master_json_path = "Assets/Resources/Master/RFIDMaster.json";
-        CardDataLoad(card_master_json_path, ref id_list);
+        answer_master_json_path = "Assets/Resources/Master/AnswerMaster.json";
+        CardDataLoad(card_master_json_path, ref id_lang_list);
         RfidDataLoad(rfid_master_json_path, ref rfid_data);
-        CreatePair(ref rfid_data, ref id_list);
+        AnswerDataLoad(answer_master_json_path, ref answer_data);
+        CreatePair(ref rfid_data, ref id_lang_list);
         result.text = default_result;
         tmp_card_num = 0;
+
+        foreach (KeyValuePair<string, string> e in dict)
+        {
+            Debug.Log(e.Key + " " + e.Value);
+        }
     }
 
     // Update is called once per frame
@@ -72,7 +80,7 @@ public class Engine : MonoBehaviour
         }
     }
 
-    void CardDataLoad(string datapath, ref string[] id_list)
+    void CardDataLoad(string datapath, ref Tuple<string,int>[] id_lang_list)
     {
         StreamReader reader = new StreamReader(datapath);
         string datastr = reader.ReadToEnd();
@@ -81,15 +89,14 @@ public class Engine : MonoBehaviour
         datastr = datastr.Trim('{', '}');
         MatchCollection matches = Regex.Matches(datastr, @"\{[\s\S]*?\}");
         cardInfos = new Dictionary<string, CardInfo>();
-        id_list = new string[matches.Count];
+        id_lang_list = new Tuple<string,int>[matches.Count];
         for (int i = 0; i < matches.Count; i++)
         {
             CardInfo _card_info = gameObject.AddComponent<CardInfo>();
             JsonUtility.FromJsonOverwrite(matches[i].Value, _card_info);
-            string id = _card_info.id;
-            id_list[i] = id;
+            id_lang_list[i] = Tuple.Create(_card_info.id, _card_info.language_type);
             try{
-                cardInfos.Add(id, _card_info);
+                cardInfos.Add(_card_info.id, _card_info);
             }
             catch(ArgumentNullException e){
                 Debug.Log(_card_info.id);
@@ -113,26 +120,51 @@ public class Engine : MonoBehaviour
             JsonUtility.FromJsonOverwrite(matches[i].Value, rfid_data[i]);
         }
     }
-
-    void CreatePair(ref RFID[] rfid_data, ref string[] id_list)
+    void AnswerDataLoad(string datapath, ref int[] answer_data)
     {
-        Shuffle(ref id_list);
+        StreamReader reader = new StreamReader(datapath);
+        string datastr = reader.ReadToEnd();
+        reader.Close();
+
+        JsonUtility.FromJsonOverwrite(datastr, answer_data);
+    }
+
+    void CreatePair(ref RFID[] rfid_data, ref Tuple<string, int>[] id_lang_list)
+    {
+        Shuffle(ref id_lang_list);
         dict = new Dictionary<string, string>();
-        for (int i = 0; i < Mathf.Min(id_list.Length, rfid_data.Length); i++)
+        bool[] done = new bool[id_lang_list.Length];
+        for (int i = 0; i < Mathf.Min(id_lang_list.Length, rfid_data.Length); i++)
         {
-            dict.Add(rfid_data[i].id, id_list[i]);
+            int j = 0;
+            while (j < id_lang_list.Length && (done[j] || !(id_lang_list[j].Item2 == 1 ^ rfid_data[i].label == "japanese" || rfid_data[i].label == "spanish")));
+            {
+                j++;
+            }
+            dict.Add(rfid_data[i].id, id_lang_list[j].Item1);
+            done[j] = true;
         }
     }
 
-    void Shuffle(ref string[] s)
+    void Shuffle(ref Tuple<string, int>[] s)
     {
         for (int i = s.Length - 1; i >= 0; i--)
         {
             int j = (int)UnityEngine.Random.Range(0, i + 1);
-            string tmp = s[i];
+            Tuple<string, int> tmp = s[i];
             s[i] = s[j];
             s[j] = tmp;
         }
     }
 
+    void AnswerShuffle(ref int[] s)
+    {
+        for (int i = s.Length - 1; i >= 0; i--)
+        {
+            int j = (int)UnityEngine.Random.Range(0, i + 1);
+            int tmp = s[i];
+            s[i] = s[j];
+            s[j] = tmp;
+        }
+    }
 }

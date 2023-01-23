@@ -21,7 +21,7 @@ public class Judge : MonoBehaviour
 
     public void Judgement()
     {
-        bool response = engine.card1.GetComponent<Card>().info.answer_label == engine.card2.GetComponent<Card>().info.answer_label;
+        bool response = engine.card1.GetComponent<Card>().info.answer_id == engine.card2.GetComponent<Card>().info.answer_id;
         Animator anim = engine.result.GetComponent<Animator>();
         if (response)
         {

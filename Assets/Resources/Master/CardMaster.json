@@ -3,6 +3,7 @@
 		{
 			"id": 401,
 			"language_type": 4,
+			"answer_id": 1,
 			"answer_label": "dog",
 			"spell": "hund",
 			"front_image_file": "dog_ge",
@@ -13,6 +14,7 @@
 		{
 			"id": 402,
 			"language_type": 4,
+			"answer_id": 2,
 			"answer_label": "cat",
 			"spell": "katze",
 			"front_image_file": "cat_ge",
@@ -23,6 +25,7 @@
 		{
 			"id": 403,
 			"language_type": 4,
+			"answer_id": 3,
 			"answer_label": "book",
 			"spell": "buch",
 			"front_image_file": "book_ge",
@@ -33,6 +36,7 @@
 		{
 			"id": 404,
 			"language_type": 4,
+			"answer_id": 4,
 			"answer_label": "pencil",
 			"spell": "bleistift",
 			"front_image_file": "pencil_ge",
@@ -43,6 +47,7 @@
 		{
 			"id": 405,
 			"language_type": 4,
+			"answer_id": 5,
 			"answer_label": "tree",
 			"spell": "baum",
 			"front_image_file": "tree_ge",
@@ -53,6 +58,7 @@
 		{
 			"id": 406,
 			"language_type": 4,
+			"answer_id": 6,
 			"answer_label": "train",
 			"spell": "zug",
 			"front_image_file": "train_ge",
@@ -63,6 +69,7 @@
 		{
 			"id": 407,
 			"language_type": 4,
+			"answer_id": 7,
 			"answer_label": "car",
 			"spell": "wagen",
 			"front_image_file": "car_ge",
@@ -73,6 +80,7 @@
 		{
 			"id": 408,
 			"language_type": 4,
+			"answer_id": 8,
 			"answer_label": "ball",
 			"spell": "ball",
 			"front_image_file": "ball_ge",
@@ -83,6 +91,7 @@
 		{
 			"id": 409,
 			"language_type": 4,
+			"answer_id": 9,
 			"answer_label": "umbrella",
 			"spell": "regenschirm",
 			"front_image_file": "umbrella_ge",
@@ -93,6 +102,7 @@
 		{
 			"id": 410,
 			"language_type": 4,
+			"answer_id": 10,
 			"answer_label": "clothes",
 			"spell": "kleider",
 			"front_image_file": "clothes_ge",
@@ -103,6 +113,7 @@
 		{
 			"id": 411,
 			"language_type": 4,
+			"answer_id": 11,
 			"answer_label": "child",
 			"spell": "kind",
 			"front_image_file": "child_ge",
@@ -113,6 +124,7 @@
 		{
 			"id": 412,
 			"language_type": 4,
+			"answer_id": 12,
 			"answer_label": "computer",
 			"spell": "rechner",
 			"front_image_file": "computer_ge",
@@ -123,6 +135,7 @@
 		{
 			"id": 413,
 			"language_type": 4,
+			"answer_id": 13,
 			"answer_label": "hand",
 			"spell": "hand",
 			"front_image_file": "hand_ge",
@@ -133,6 +146,7 @@
 		{
 			"id": 414,
 			"language_type": 4,
+			"answer_id": 14,
 			"answer_label": "rain",
 			"spell": "regen",
 			"front_image_file": "rain_ge",
@@ -143,6 +157,7 @@
 		{
 			"id": 415,
 			"language_type": 4,
+			"answer_id": 15,
 			"answer_label": "sun",
 			"spell": "sonne",
 			"front_image_file": "sun_ge",
@@ -153,6 +168,7 @@
 		{
 			"id": 416,
 			"language_type": 4,
+			"answer_id": 16,
 			"answer_label": "moon",
 			"spell": "mond",
 			"front_image_file": "moon_ge",
@@ -163,6 +179,7 @@
 		{
 			"id": 417,
 			"language_type": 4,
+			"answer_id": 17,
 			"answer_label": "earth",
 			"spell": "erde",
 			"front_image_file": "earth_ge",
@@ -173,6 +190,7 @@
 		{
 			"id": 418,
 			"language_type": 4,
+			"answer_id": 18,
 			"answer_label": "flower",
 			"spell": "blume",
 			"front_image_file": "flower_ge",
@@ -183,6 +201,7 @@
 		{
 			"id": 419,
 			"language_type": 4,
+			"answer_id": 19,
 			"answer_label": "bread",
 			"spell": "brot",
 			"front_image_file": "bread_ge",
@@ -193,6 +212,7 @@
 		{
 			"id": 420,
 			"language_type": 4,
+			"answer_id": 20,
 			"answer_label": "apple",
 			"spell": "apfel",
 			"front_image_file": "apple_ge",
@@ -203,6 +223,7 @@
 		{
 			"id": 601,
 			"language_type": 6,
+			"answer_id": 1,
 			"answer_label": "dog",
 			"spell": "perro",
 			"front_image_file": "dog_sp",
@@ -213,6 +234,7 @@
 		{
 			"id": 602,
 			"language_type": 6,
+			"answer_id": 2,
 			"answer_label": "cat",
 			"spell": "gato",
 			"front_image_file": "cat_sp",
@@ -223,6 +245,7 @@
 		{
 			"id": 603,
 			"language_type": 6,
+			"answer_id": 3,
 			"answer_label": "book",
 			"spell": "libro",
 			"front_image_file": "book_sp",
@@ -233,6 +256,7 @@
 		{
 			"id": 604,
 			"language_type": 6,
+			"answer_id": 4,
 			"answer_label": "pencil",
 			"spell": "lápiz",
 			"front_image_file": "pencil_sp",
@@ -243,6 +267,7 @@
 		{
 			"id": 605,
 			"language_type": 6,
+			"answer_id": 5,
 			"answer_label": "tree",
 			"spell": "árbol",
 			"front_image_file": "tree_sp",
@@ -253,6 +278,7 @@
 		{
 			"id": 606,
 			"language_type": 6,
+			"answer_id": 6,
 			"answer_label": "train",
 			"spell": "tren",
 			"front_image_file": "train_sp",
@@ -263,6 +289,7 @@
 		{
 			"id": 607,
 			"language_type": 6,
+			"answer_id": 7,
 			"answer_label": "car",
 			"spell": "coche",
 			"front_image_file": "car_sp",
@@ -273,6 +300,7 @@
 		{
 			"id": 608,
 			"language_type": 6,
+			"answer_id": 8,
 			"answer_label": "ball",
 			"spell": "pelota",
 			"front_image_file": "ball_sp",
@@ -283,6 +311,7 @@
 		{
 			"id": 609,
 			"language_type": 6,
+			"answer_id": 9,
 			"answer_label": "umbrella",
 			"spell": "paraguas",
 			"front_image_file": "umbrella_sp",
@@ -293,6 +322,7 @@
 		{
 			"id": 610,
 			"language_type": 6,
+			"answer_id": 10,
 			"answer_label": "clothes",
 			"spell": "prenda",
 			"front_image_file": "clothes_sp",
@@ -303,6 +333,7 @@
 		{
 			"id": 611,
 			"language_type": 6,
+			"answer_id": 11,
 			"answer_label": "child",
 			"spell": "niño",
 			"front_image_file": "child_sp",
@@ -313,6 +344,7 @@
 		{
 			"id": 612,
 			"language_type": 6,
+			"answer_id": 12,
 			"answer_label": "computer",
 			"spell": "ordenador",
 			"front_image_file": "computer_sp",
@@ -323,6 +355,7 @@
 		{
 			"id": 613,
 			"language_type": 6,
+			"answer_id": 13,
 			"answer_label": "hand",
 			"spell": "mano",
 			"front_image_file": "hand_sp",
@@ -333,6 +366,7 @@
 		{
 			"id": 614,
 			"language_type": 6,
+			"answer_id": 14,
 			"answer_label": "rain",
 			"spell": "lluvia",
 			"front_image_file": "rain_sp",
@@ -343,6 +377,7 @@
 		{
 			"id": 615,
 			"language_type": 6,
+			"answer_id": 15,
 			"answer_label": "sun",
 			"spell": "sol",
 			"front_image_file": "sun_sp",
@@ -353,6 +388,7 @@
 		{
 			"id": 616,
 			"language_type": 6,
+			"answer_id": 16,
 			"answer_label": "moon",
 			"spell": "mes",
 			"front_image_file": "moon_sp",
@@ -363,6 +399,7 @@
 		{
 			"id": 617,
 			"language_type": 6,
+			"answer_id": 17,
 			"answer_label": "earth",
 			"spell": "Tierra",
 			"front_image_file": "earth_sp",
@@ -373,6 +410,7 @@
 		{
 			"id": 618,
 			"language_type": 6,
+			"answer_id": 18,
 			"answer_label": "flower",
 			"spell": "flor",
 			"front_image_file": "flower_sp",
@@ -383,6 +421,7 @@
 		{
 			"id": 619,
 			"language_type": 6,
+			"answer_id": 19,
 			"answer_label": "bread",
 			"spell": "pan",
 			"front_image_file": "bread_sp",
@@ -393,6 +432,7 @@
 		{
 			"id": 620,
 			"language_type": 6,
+			"answer_id": 20,
 			"answer_label": "apple",
 			"spell": "manzana",
 			"front_image_file": "apple_sp",
@@ -403,6 +443,7 @@
 		{
 			"id": 101,
 			"language_type": 1,
+			"answer_id": 1,
 			"answer_label": "dog",
 			"spell": "イヌ",
 			"front_image_file": "dog_ja",
@@ -413,6 +454,7 @@
 		{
 			"id": 102,
 			"language_type": 1,
+			"answer_id": 2,
 			"answer_label": "cat",
 			"spell": "ネコ",
 			"front_image_file": "cat_ja",
@@ -423,6 +465,7 @@
 		{
 			"id": 103,
 			"language_type": 1,
+			"answer_id": 3,
 			"answer_label": "book",
 			"spell": "本",
 			"front_image_file": "book_ja",
@@ -433,6 +476,7 @@
 		{
 			"id": 104,
 			"language_type": 1,
+			"answer_id": 4,
 			"answer_label": "pencil",
 			"spell": "えんぴつ",
 			"front_image_file": "pencil_ja",
@@ -443,6 +487,7 @@
 		{
 			"id": 105,
 			"language_type": 1,
+			"answer_id": 5,
 			"answer_label": "tree",
 			"spell": "木",
 			"front_image_file": "tree_ja",
@@ -453,6 +498,7 @@
 		{
 			"id": 106,
 			"language_type": 1,
+			"answer_id": 6,
 			"answer_label": "train",
 			"spell": "電車",
 			"front_image_file": "train_ja",
@@ -463,6 +509,7 @@
 		{
 			"id": 107,
 			"language_type": 1,
+			"answer_id": 7,
 			"answer_label": "car",
 			"spell": "車",
 			"front_image_file": "car_ja",
@@ -473,6 +520,7 @@
 		{
 			"id": 108,
 			"language_type": 1,
+			"answer_id": 8,
 			"answer_label": "ball",
 			"spell": "",
 			"front_image_file": "ball_ja",
@@ -483,6 +531,7 @@
 		{
 			"id": 109,
 			"language_type": 1,
+			"answer_id": 9,
 			"answer_label": "umbrella",
 			"spell": "",
 			"front_image_file": "umbrella_ja",
@@ -493,6 +542,7 @@
 		{
 			"id": 110,
 			"language_type": 1,
+			"answer_id": 10,
 			"answer_label": "clothes",
 			"spell": "",
 			"front_image_file": "clothes_ja",
@@ -503,6 +553,7 @@
 		{
 			"id": 111,
 			"language_type": 1,
+			"answer_id": 11,
 			"answer_label": "child",
 			"spell": "",
 			"front_image_file": "child_ja",
@@ -513,6 +564,7 @@
 		{
 			"id": 112,
 			"language_type": 1,
+			"answer_id": 12,
 			"answer_label": "computer",
 			"spell": "",
 			"front_image_file": "computer_ja",
@@ -523,6 +575,7 @@
 		{
 			"id": 113,
 			"language_type": 1,
+			"answer_id": 13,
 			"answer_label": "hand",
 			"spell": "",
 			"front_image_file": "hand_ja",
@@ -533,6 +586,7 @@
 		{
 			"id": 114,
 			"language_type": 1,
+			"answer_id": 14,
 			"answer_label": "rain",
 			"spell": "",
 			"front_image_file": "rain_ja",
@@ -543,6 +597,7 @@
 		{
 			"id": 115,
 			"language_type": 1,
+			"answer_id": 15,
 			"answer_label": "sun",
 			"spell": "",
 			"front_image_file": "sun_ja",
@@ -553,6 +608,7 @@
 		{
 			"id": 116,
 			"language_type": 1,
+			"answer_id": 16,
 			"answer_label": "moon",
 			"spell": "",
 			"front_image_file": "moon_ja",
@@ -563,6 +619,7 @@
 		{
 			"id": 117,
 			"language_type": 1,
+			"answer_id": 17,
 			"answer_label": "earth",
 			"spell": "",
 			"front_image_file": "earth_ja",
@@ -573,6 +630,7 @@
 		{
 			"id": 118,
 			"language_type": 1,
+			"answer_id": 18,
 			"answer_label": "flower",
 			"spell": "",
 			"front_image_file": "flower_ja",
@@ -583,6 +641,7 @@
 		{
 			"id": 119,
 			"language_type": 1,
+			"answer_id": 19,
 			"answer_label": "bread",
 			"spell": "",
 			"front_image_file": "bread_ja",
@@ -593,6 +652,7 @@
 		{
 			"id": 120,
 			"language_type": 1,
+			"answer_id": 20,
 			"answer_label": "apple",
 			"spell": "",
 			"front_image_file": "apple_ja",
